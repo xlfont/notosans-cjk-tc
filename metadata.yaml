@@ -1,0 +1,45 @@
+- name: Noto Sans CJK TC
+  displayname: 思源黑體
+  category: sans serif
+  subsets:
+   - cjk
+   - latin
+   - Hangul Syllables
+  style:
+    normal:
+      - filename: dist/NotoSansCJKtc-Black
+        weight: 900
+        xfl: true
+      - filename: dist/NotoSansCJKtc-Bold
+        weight: 700
+        xfl: true
+      - filename: dist/NotoSansCJKtc-Medium
+        weight: 500
+        xfl: true
+      - filename: dist/NotoSansCJKtc-Regular
+        weight: 400
+        xfl: true
+      - filename: dist/NotoSansCJKtc-DemiLight
+        weight: 300
+        xfl: true
+      - filename: dist/NotoSansCJKtc-Light
+        weight: 200
+        xfl: true
+      - filename: dist/NotoSansCJKtc-Thin
+        weight: 100
+        xfl: true
+- name: Noto Sans Mono CJK TC
+  displayname: 思源等寬
+  category: monospace
+  subsets:
+   - cjk
+   - latin
+   - Hangul Syllables
+  style:
+    normal:
+      - filename: dist/NotoSansMonoCJKtc-Bold
+        weight: 700
+        xfl: true
+      - filename: dist/NotoSansMonoCJKtc-Regular
+        weight: 400
+        xfl: true
